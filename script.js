@@ -36,66 +36,66 @@ const projectData = {
         ]
     },
     taskmanagement: {
-        title: "Weather Forecast Web Application",
-        tech: "HTML • CSS • JavaScript • OpenWeatherMap API • GitHub Pages",
-        overview: "A responsive weather forecast web application that provides real-time weather information using OpenWeatherAPI. Features current weather conditions, forecasts, and location-based weather data with a clean, user-friendly interface deployed on GitHub Pages.",
-        githubUrl: "https://github.com/rohitpaul1998/weather-webApp.github.io",
+        title: "Heart Disease Prediction",
+        tech: "Python • Scikit-learn • Logistic Regression • Pandas • NumPy • Jupyter Notebook • Google Colab • Kaggle",
+        overview: "Built a logistic regression model using Python and Scikit-learn to predict heart disease presence from patient health metrics with binary classification.",
+        githubUrl: "https://github.com/rohitpaul1998/Heart_disease_prediction_ML",
         features: [
-            {
-                title: "Real-Time Weather Data",
-                description: "Live weather information and forecasts using OpenWeatherMap API integration."
-            },
-            {
-                title: "Location-Based Services",
-                description: "Automatic geolocation detection and manual city search functionality."
-            },
-            {
-                title: "Responsive Design",
-                description: "Mobile-first approach ensuring optimal experience across all devices and screen sizes."
-            },
-            {
-                title: "Current Conditions Display",
-                description: "Temperature, humidity, wind speed, and atmospheric pressure with visual indicators."
-            },
-            {
-                title: "Weather Forecasting",
-                description: "Multi-day weather predictions with detailed hourly and daily breakdowns."
-            },
-            {
-                title: "GitHub Pages Deployment",
-                description: "Live web application hosted with continuous deployment and version control."
-            }
-        ]
+        {
+            title: "Clinical Data Analysis",
+            description: "Analyzes 13 key health metrics including age, chest pain type, blood pressure, and cholesterol levels."
+        },
+        {
+            title: "Logistic Regression Model",
+            description: "Implements scikit-learn's logistic regression algorithm for binary classification with high accuracy."
+        },
+        {
+            title: "Data Preprocessing Pipeline",
+            description: "Comprehensive data cleaning, feature scaling, and preparation using Pandas and NumPy."
+        },
+        {
+            title: "Binary Classification Output",
+            description: "Clear prediction results indicating presence (1) or absence (0) of heart disease risk."
+        },
+        {
+            title: "Model Performance Evaluation",
+            description: "Includes accuracy metrics, confusion matrix, and classification reports for model validation."
+        },
+        {
+            title: "Interactive Jupyter Notebook",
+            description: "Well-documented analysis with step-by-step implementation and Google Colab compatibility."
+        }
+]
     },
     datavisualization: {
-        title: "Task Tracker REST API",
-        tech: "Python • Django • Django REST Framework • PostgreSQL • Docker • Azure App Service",
-        overview: "A comprehensive task tracking REST API built with Django and PostgreSQL. Features full CRUD operations, user management, and task organization with Docker containerization and Azure cloud deployment for scalable task management solutions.",
-        githubUrl: null,
+        title: "NYC Motor Vehicle Collisions Analytics",
+        tech: "SQL • Azure SQL Database • MySQL • Google BigQuery • ER/Studio • Alteryx • Talend Open Studio • Power BI • Tableau",
+        overview: "Built a comprehensive data engineering solution analyzing NYC motor vehicle collisions using multi-database architecture, advanced ETL pipelines, and enterprise analytics tools. Processed 1M collision records across Azure SQL, MySQL, and BigQuery using Alteryx, Talend, and ER/Studio with Power BI and Tableau dashboards.",
+        githubUrl: "https://github.com/rohitpaul1998/Data-Engineering-Projects/tree/main/NYC_Motor_Vehicle_Collisions",
         features: [
             {
-                title: "Django REST Framework",
-                description: "Professional-grade API with serializers, viewsets, and automated API documentation."
+                title: "Multi-Database Architecture",
+                description: "Implemented data processing across Azure SQL Database, MySQL, and BigQuery for scalable storage and analysis."
             },
             {
-                title: "PostgreSQL Integration",
-                description: "Robust relational database with complex queries and data relationships for scalable storage."
+                title: "Comprehensive Data Profiling",
+                description: "Used Alteryx to profile and assess data quality of 200K+ collision records, identifying patterns and anomalies."
             },
             {
-                title: "User Authentication & Authorization",
-                description: "Django's built-in auth system with permissions and user-specific task management."
+                title: "Advanced ETL Pipeline Development",
+                description: "Built robust ETL workflows using Talend Open Studio for automated data extraction, transformation, and loading."
             },
             {
-                title: "Docker Containerization",
-                description: "Fully containerized application with multi-stage builds for consistent deployment environments."
+                title: "Database Design & Modeling",
+                description: "Designed optimized data models using ER/Studio for efficient storage and query performance across platforms."
             },
             {
-                title: "Azure Cloud Deployment",
-                description: "Production-ready hosting on Azure App Service with CI/CD pipeline integration."
+                title: "Collision Pattern Analytics",
+                description: "Analyzed temporal trends, geographic hotspots, and contributing factors using advanced SQL queries and analytics."
             },
             {
-                title: "Comprehensive Task Management",
-                description: "Advanced filtering, sorting, priority levels, due dates, and status tracking with pagination."
+                title: "Multi-Platform Visualization",
+                description: "Created interactive dashboards in both Power BI and Tableau for comprehensive stakeholder reporting and insights."
             }
         ]
     }
